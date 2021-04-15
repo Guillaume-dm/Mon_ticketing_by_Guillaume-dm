@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background: black;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+}
+
+time {
+    color: white;
+    font-style: italic;
+}
+
+div.auteur {
+    color: white;
+    font-style: italic;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.titreBillet {
+    margin-bottom: 0px;
+    color: #3B6E0E;
+}
+
+#global {
+    min-height: 100%;
+    /* COLIN : Voir commentaire sur html et body plus haut */
+    background: #542632;
+    width: 70%;
+    margin: auto;
+    /* Centrage pour pas être moche/*
+    /* COLIN : Permet de centrer la div */
+    text-align: justify;
+    padding: 5px 20px;
+    color: white;
+}
+
+#contenu {
+    margin-bottom: 30px;
+    /*MARGE DU PIED DE PAGE */
+}
+
+#titreBlog,
+#piedBlog {
+    text-align: center;
+}
+
+#titreReponses {
+    font-size: 100%;
+}
+
+#txtCommentaire {
+    width: 50%;
+}
+
+
+/* span.btn-success {
+    margin-left: 80%;
+} */
+
+.btn-info {
+    width: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input+span {
+    padding-right: 30px;
+}
+
+input:invalid+span:after {
+    position: absolute;
+    content: '✖';
+    padding-left: 3px;
+}
+
+input:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 3px;
+}
